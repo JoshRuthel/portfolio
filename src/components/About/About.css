@@ -61,6 +61,11 @@
     margin-bottom: 10px;
 }
 
+.app_error {
+    background-color: rgb(44, 44, 44);
+    height: 100vh;
+}
+
 @media (max-width: 768px) {
     .about_robot {
         position: absolute;

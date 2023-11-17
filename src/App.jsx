@@ -24,6 +24,7 @@ import {
 function App() {
   const [isBlur, setIsBlur] = useState(false);
   const isMobile = window.matchMedia('(max-width: 600px)').matches;
+  const isTiny = window.matchMedia('(max-width: 350px)').matches;
   const landRef = useRef(null);
   const aboutRef = useRef(null);
   const skillsRef = useRef(null);
@@ -45,7 +46,7 @@ function App() {
   }, []);
   return (
     <>
-      {isMobile ? (
+      {isMobile && !isTiny ? (
         <div className="container">
           {isBlur && <div className="blur"></div>}
           <Navbar
@@ -76,7 +77,7 @@ function App() {
             <Contact />
           </div>
         </div>
-      ) : (
+      ) : !isTiny ? (
         <div className="container">
           <Plx
             parallaxData={parallaxDataNavbar}
@@ -104,6 +105,13 @@ function App() {
               <Contact />
             </Plx>
           </div>
+        </div>
+      ) : (
+        <div className="app_error">
+          <h1 className="app_heading_primary">
+            Unfortunately this website does not work with these screen
+            dimensions, please open it on your desktop.
+          </h1>
         </div>
       )}
     </>
