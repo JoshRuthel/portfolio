@@ -1,11 +1,13 @@
 .nav_container {
     display: flex;
     justify-content: center;
-    padding-top: 1%;
+    align-items: center;
+    padding-top: 4px;
     padding-bottom: 0.5%;
     position:fixed;
     width: 100%;
     z-index: 1002;
+    margin-top: 4px;
     background-color: rgb(31, 31, 31);
 }
 
@@ -30,6 +32,7 @@
 .nav_contents {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 90%;
 }
 
