@@ -13,7 +13,6 @@
 
 .section_mobile_landing {
     overflow: hidden;
-    scroll-snap-align: center;
     height: 100vh;
     width: 100%;
 }
@@ -41,10 +40,10 @@
 .container {
     height: 1000vh;
     position: sticky;
+    overflow: hidden;
     top: 0;
     background: url("./assets/blue-acrylic-texture-background.jpg"); 
     background-attachment: fixed;
-    scroll-behavior:smooth;
     scrollbar-width: none;
     &::-webkit-scrollbar{
         display: none;
@@ -154,7 +153,7 @@
 
     .container {
         height: fit-content;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 }
 

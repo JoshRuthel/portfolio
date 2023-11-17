@@ -26,7 +26,6 @@
 }
 
 .land_soft {
-    /* color: rgb(172, 172, 172); */
     color: transparent;
     -webkit-text-stroke: 1px #BFAFF2;
     font-weight: 300;

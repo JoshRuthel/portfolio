@@ -1,6 +1,5 @@
 .cont_section {
-    height: 75vh;
-    scroll-snap-align: center;
+    height: fit-content;
     width: 100%;
 }
 
@@ -71,7 +70,6 @@
     display: flex;
     align-items: start;
     flex-direction: column;
-    /* background-color: red; */
 }
 
 .cont_heading_description {
@@ -139,7 +137,6 @@
     .cont_form{
         padding: 0;
         justify-content: start;
-        /* background-color: red; */
     }
 
     .cont_form_content {
@@ -177,96 +174,3 @@
         margin-top: 2rem;
     }
 }
-
-/* .cont_section {
-    height: 100vh;
-    scroll-snap-align: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-.cont_container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-}
-
-.cont_form {
-    display: flex;
-    flex: 2;
-    justify-content: flex-end;
-    width: 100%;
-    padding: 15rem;
-}
-
-.cont_form_content {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px
-}
-
-.cont_img {
-    flex: 3;
-    padding-top: 7rem;
-}
-
-.cont_form_content > input, .cont_form_content > textarea {
-    padding: 20px;
-    background-color: rgb(85, 85, 85);
-    border: 2px solid #BFAFF2;
-    border-radius: 5px;
-}
-
-.cont_form_content > input::placeholder, .cont_form_content > textarea::placeholder {
-    color: rgb(187, 187, 187)
-}
-
-.cont_form_content > button {
-    background-color:  #BFAFF2;
-    border-radius: 5px;
-    padding: 10px;
-    border: none;
-    color: rgb(77, 77, 77);
-    cursor: pointer;
-    font-weight: 500;
-}
-
-.cont_message {
-    color: rgb(189, 189, 189);
-    font-weight: 300
-}
-
-.cont_heading {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-
-}
-
-@media (max-width: 768px) {
-    .cont_container{
-        flex-direction: column;
-    }
-
-    .cont_img {
-        width: 50%;
-    }
-
-    .cont_form{
-        padding: 0;
-        justify-content: center;
-    }
-
-    .cont_form_content {
-        gap: 20px
-    }
-
-    .cont_section {
-        padding-top: 10rem;
-    }
-
-} */

@@ -61,7 +61,6 @@
     flex-direction: row;
     align-items: center;
     gap: 50px;
-    width: fit-content;
     padding: 1rem;
 }
 
