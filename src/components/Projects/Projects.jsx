@@ -6,14 +6,7 @@ import { projects } from '../../constants/Export';
 import Plx from 'react-plx';
 import { parallaxProjectHeading, parallaxProjectCard } from '../Parallax';
 
-const ProjectCard = ({
-  name,
-  description,
-  tags,
-  image,
-  code_link,
-  isShort,
-}) => {
+const ProjectCard = ({ name, description, tags, image, code_link }) => {
   return (
     <motion.div>
       <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="proj_card">
@@ -22,7 +15,7 @@ const ProjectCard = ({
             src={image}
             alt={name}
             width={'100%'}
-            height={isShort ? '100' : '150px'}
+            height={'150px'}
             style={{ borderRadius: '2rem 2rem 0 0' }}
           ></img>
           <div className="proj_title">
@@ -61,7 +54,6 @@ const ProjectCard = ({
 
 const Projects = () => {
   const isMobile = window.matchMedia('(max-width: 600px)').matches;
-  const isShort = window.matchMedia('(max-height: 770px)').matches;
   return (
     <>
       <div className={isMobile ? 'section_mobile' : 'section'}>
@@ -116,7 +108,6 @@ const Projects = () => {
                     tags={proj.tags}
                     image={proj.image}
                     code_link={proj.code_link}
-                    isShort={isShort}
                   />
                 </Plx>
               ))}
