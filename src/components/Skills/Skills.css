@@ -1,0 +1,131 @@
+.skills_tech {
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 1rem; 
+    margin-right: 1.5rem;
+}
+
+.skills_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    padding-left: 10rem;
+}
+
+.skills_apps {
+    color: gray;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.skills_head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.skills_container {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: start;
+   background-color: #484848;
+   margin-top: 2rem;
+   border-radius: 4rem;
+   width: 55%;
+   flex-wrap: wrap;
+   border: 1px solid #BFAFF2;
+   padding: 1rem;
+}
+
+.skill_balls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.ball_container {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    position: absolute;
+}
+
+.skill_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.skill_category > h2 {
+    color: rgb(181, 181, 181);
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    width: fit-content;
+    cursor: pointer;
+    padding-bottom: 1.5rem;
+}
+
+.skills_tools {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: rgb(159, 159, 159);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.skills_nav {
+    position: fixed;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+   .skills_heading {
+    padding-left: 2rem;
+    padding-right: 1rem;
+   }
+
+   .skills_tech {
+        font-size: 2rem;
+   }
+
+   .skills_apps {
+    font-size: 1.5rem;
+   }
+
+   .skill_category > h2 {
+    font-size: 1rem;
+   }
+
+   .skill_row {
+    gap: 10px;
+    width: 50%;
+    padding: 0.1rem;
+    padding-left: 1rem;
+   }
+
+   .skill_balls {
+    gap: 25px;
+    flex-wrap: nowrap;
+   }
+
+   .skills_container {
+    margin-top: 0;
+    position: absolute;
+    top: -20rem;
+   }
+
+   .skills_tools {
+    font-size: 0.8rem;
+   }
+}

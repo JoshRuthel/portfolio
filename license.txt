@@ -1,0 +1,34 @@
+Model Information:
+* title:	Sphere
+* source:	https://sketchfab.com/3d-models/sphere-bb721dfff9594206aee62175e43c08b2
+* author:	oatmas64134 (https://sketchfab.com/oatmas64134)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+
+This work is based on "Sphere" (https://sketchfab.com/3d-models/sphere-bb721dfff9594206aee62175e43c08b2) by oatmas64134 (https://sketchfab.com/oatmas64134) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Model Information:
+* title:	iPhone 12 Pro
+* source:	https://sketchfab.com/3d-models/iphone-12-pro-3a77a46585a7401488fd9be26fd912cd
+* author:	TAIGA-ZOE (https://sketchfab.com/TAIGA-ZOE)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+This work is based on "iPhone 12 Pro" (https://sketchfab.com/3d-models/iphone-12-pro-3a77a46585a7401488fd9be26fd912cd) by TAIGA-ZOE (https://sketchfab.com/TAIGA-ZOE) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+
+Model Information:
+* title:	Atom Robot - CyberPunk Version
+* source:	https://sketchfab.com/3d-models/atom-robot-cyberpunk-version-045d0417bed5490b831b77ef974781cb
+* author:	sleepwalker77 (https://sketchfab.com/sleepwalker77)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+
+This work is based on "Atom Robot - CyberPunk Version" (https://sketchfab.com/3d-models/atom-robot-cyberpunk-version-045d0417bed5490b831b77ef974781cb) by sleepwalker77 (https://sketchfab.com/sleepwalker77) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

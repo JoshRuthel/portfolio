@@ -1,0 +1,78 @@
+.land_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 5rem;
+    border-radius: 4rem;
+    margin-bottom: 5rem;
+}
+
+.land_heading > div {
+    display: flex;
+    gap: 20px
+}
+
+.land_hello {
+    font-size: 3rem;
+    color:  #BFAFF2;
+    font-weight: 300;
+}
+
+.land_name {
+    font-size: 7rem;
+    color: white;
+    font-weight: 500;
+}
+
+.land_soft {
+    /* color: rgb(172, 172, 172); */
+    color: transparent;
+    -webkit-text-stroke: 1px #BFAFF2;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.land_soft2 {
+    color: rgb(125, 125, 125);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.land_soft3 {
+    color: rgb(194, 194, 194);
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+    .land_hello {
+        font-size: 1.5rem;
+    }
+    .land_name {
+        font-size: 3rem;
+    }
+
+    .land_heading{
+        padding: 2rem;
+        margin-top: 5rem;
+        position: relative;
+    }
+
+    .land_soft {
+        font-size: 1.5rem;
+    }
+
+    .land_soft2 {
+        font-size: 1rem;
+    }
+
+    .land_soft3 {
+        font-size: 1rem;
+    }
+
+    .land_three {
+        position: absolute;
+        top: -2rem;
+    }
+}
