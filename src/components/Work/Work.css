@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    position: relative;
 }
 
 .work_container_left {
@@ -81,4 +80,10 @@
     flex-direction: row;
     align-items: center;
     gap: 10px
+}
+
+@media (max-width: 768px) {
+    .work_section_container {
+        height: fit-content;
+    }
 }

@@ -1,14 +1,12 @@
 .section {
-    /* overflow: hidden; */
+    overflow: hidden;
     position: fixed;
-    scroll-snap-align: center;
     height: 100vh;
     width: 100%;
 }
 
 .section_mobile {
     overflow: hidden;
-    scroll-snap-align: center;
     height: 80vh;
     width: 100%;
 }
@@ -44,7 +42,6 @@
     height: 1000vh;
     position: sticky;
     top: 0;
-    overscroll-behavior: none;
     background: url("./assets/blue-acrylic-texture-background.jpg"); 
     background-attachment: fixed;
     scroll-behavior:smooth;
@@ -74,6 +71,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    flex-wrap: nowrap;
 }
 
 .button_purple {

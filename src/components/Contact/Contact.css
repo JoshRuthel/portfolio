@@ -178,12 +178,6 @@
     }
 }
 
-@media (max-width: 350px) {
-    .cont_section {
-        margin-top: 10rem;
-    }
-}
-
 /* .cont_section {
     height: 100vh;
     scroll-snap-align: center;

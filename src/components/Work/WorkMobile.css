@@ -10,8 +10,8 @@
     flex-direction: column;
     padding: 1rem;
     align-items: center;
-    margin-top: 5rem;
-    height: 170vh;
+    height: fit-content;
+    margin-top: 2rem;
 }
 
 .work_timeline {

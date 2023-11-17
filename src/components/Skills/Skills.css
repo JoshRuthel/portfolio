@@ -120,14 +120,25 @@
    }
 
    .skills_container {
-    margin-top: 0;
-    position: absolute;
-    top: -20rem;
+    flex-direction: column;
+    height: fit-content;
+    position: relative;
    }
 
    .skills_tools {
     font-size: 0.8rem;
    }
+
+   .ball_container {
+    width: 600px;
+    top: -4rem;
+   }
+
+   .skills_container {
+    justify-content: start;
+    width: 70%;
+    /* margin-top: 2rem; */
+ }
 }
 
 @media (max-width: 370px) {
