@@ -103,6 +103,7 @@
         padding-left: 2rem;
         padding-top: 4px;
         height: fit-content;
+        overflow: auto;
     }
 
     .proj_card {
