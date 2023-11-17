@@ -108,6 +108,10 @@
     .proj_section_container {
         height: 200vh;
     }
+
+    .proj_headings {
+        width: 22%;
+    }
 }
 
 .proj_placeholder {
