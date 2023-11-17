@@ -16,18 +16,6 @@
     padding: 10px;
 }
 
-@media (max-width: 768px) {
-    .nav_list {
-        display: none;
-    }
-    .nav_contact {
-        padding:10px;
-    }
-    .nav_burger {
-        display: flex;
-    }
-}
-
 
 .nav_contents {
     display: flex;
@@ -75,7 +63,6 @@
     color: white;
     font-size: 1rem;
     font-weight: 300;
-    border-bottom: 1px solid inherit;
     padding: 4px;
     cursor: pointer;
     display: flex;
@@ -93,4 +80,16 @@
     gap: 50px;
     justify-content: space-between;
     width: 64%;
+}
+
+@media (max-width: 768px) {
+    .nav_list {
+        display: none;
+    }
+    .nav_contact {
+        padding:10px;
+    }
+    .nav_burger {
+        display: flex;
+    }
 }

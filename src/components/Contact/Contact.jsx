@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment } from '@react-three/drei';
 import Phone from '../canvas/Phone';
-import { linkedin, whatsapp, github, insta } from '../../assets/Assets';
+import { linkedin, whatsapp, github2, insta } from '../../assets/Assets';
 
 const Contact = () => {
   const ref = useRef();
@@ -99,7 +99,7 @@ const Contact = () => {
               <img src={insta} alt="insta" width={isMobile ? 20 : 30}></img>
             </a>
             <a href="https://github.com/JoshRuthel">
-              <img src={github} alt="github" width={isMobile ? 20 : 30}></img>
+              <img src={github2} alt="github" width={isMobile ? 20 : 30}></img>
             </a>
             <a href="https://www.linkedin.com/in/joshua-ruthel-48b731225/">
               <img
