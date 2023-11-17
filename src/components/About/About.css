@@ -109,3 +109,18 @@
     }
 }
 
+
+@media (max-width: 400px) {
+    .about_robot {
+        position: absolute;
+        left: -2.5rem;
+    }
+    .about_headings {
+        position: absolute;
+        top: -15rem;
+        left: 0rem;
+        gap: 10px;
+        width: 11rem;
+    }
+}
+

@@ -129,3 +129,18 @@
     font-size: 0.8rem;
    }
 }
+
+@media (max-width: 370px) {
+    .skills_row {
+        gap: 20px;
+        padding-left: 4rem;
+    }
+
+    .skill_balls {
+        gap: 10px
+    }
+
+    .skills_container {
+        padding-left: 4rem;
+    }
+}
