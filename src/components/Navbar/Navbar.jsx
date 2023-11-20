@@ -1,4 +1,5 @@
 import './Navbar.css';
+import { useSpring, animated } from 'react-spring';
 import {
   jr,
   user,
@@ -13,7 +14,14 @@ import { useState } from 'react';
 
 const Navbar = (props) => {
   const [showDrop, setShowDrop] = useState(false);
-  const isMobile = window.matchMedia('(max-width: 600px)').matches;
+  const isMobile = window.matchMedia('(max-width: 768px)').matches;
+  const fade = useSpring({
+    transform: isMobile
+      ? showDrop
+        ? 'translateY(0%)'
+        : 'translateY(-120%)'
+      : 'translateY(0%)',
+  });
 
   const handleClick = () => {
     props.handleBlur((prev) => !prev);
@@ -23,12 +31,10 @@ const Navbar = (props) => {
   const scrollToSection = (ref, position) => {
     if (isMobile) {
       props.handleBlur((prev) => !prev);
-      setTimeout(() => {
-        if (ref.current.dataset.key === 'work') {
-          ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        } else
-          ref.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }, 200);
+      if (ref.current.dataset.key === 'work') {
+        ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else
+        ref.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
       setShowDrop((prev) => !prev);
     } else {
       window.scrollTo({
@@ -44,7 +50,10 @@ const Navbar = (props) => {
           <div className="nav_logo">
             <img src={jr} width={40} alt="logo"></img>
           </div>
-          <div className={showDrop ? 'nav_list_mobile' : 'nav_list'}>
+          <animated.div
+            className={isMobile ? 'nav_list_mobile' : 'nav_list'}
+            style={fade}
+          >
             <ul>
               <li onClick={() => scrollToSection(props.landRef, 0)}>
                 <img src={home} width={17} alt="home"></img>Welcome
@@ -63,7 +72,7 @@ const Navbar = (props) => {
                 <img src={work} width={18} alt="projects"></img>Work
               </li>
             </ul>
-          </div>
+          </animated.div>
         </div>
         <div className="nav_contact">
           <a

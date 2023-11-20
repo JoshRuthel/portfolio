@@ -41,6 +41,7 @@
     background-color: rgb(31, 31, 31);
     width: 100%;
     z-index: 1001;
+    will-change: transform;
 }
 
 .nav_list_mobile > ul {
@@ -82,9 +83,6 @@
 }
 
 @media (max-width: 768px) {
-    .nav_list {
-        display: none;
-    }
     .nav_contact {
         padding:10px;
     }
