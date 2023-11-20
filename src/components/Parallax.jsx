@@ -46,7 +46,7 @@ const parallaxDataLanding = [
     properties: [
       { startValue: 1, endValue: 15, property: 'scale' },
       { startValue: 0, endValue: 47, property: 'translateY', unit: '%' },
-      { startValue: 0, endValue: 140, property: 'translateX', unit: '%' },
+      { startValue: 0, endValue: 110, property: 'translateX', unit: '%' },
     ],
   },
   {
@@ -61,7 +61,7 @@ const parallaxDataLanding = [
       { startValue: 0, endValue: 1, property: 'opacityFilter' },
       { startValue: 15, endValue: 1, property: 'scale' },
       { startValue: 47, endValue: 0, property: 'translateY', unit: '%' },
-      { startValue: 40, endValue: 0, property: 'translateX', unit: '%' },
+      { startValue: 20, endValue: 0, property: 'translateX', unit: '%' },
     ],
   },
   {
