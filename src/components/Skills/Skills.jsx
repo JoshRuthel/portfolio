@@ -3,6 +3,7 @@ import './Skills.css';
 import { motion } from 'framer-motion';
 import {
   react,
+  kafka,
   TS,
   redux,
   css,
@@ -13,6 +14,7 @@ import {
   git,
   rest,
   figma,
+  mongo,
   pg,
 } from '../../assets/Assets';
 
@@ -56,7 +58,7 @@ const Skills = () => {
               />
               <SkillRow
                 title={'DB / Tools'}
-                images={[git, figma, rest, pg]}
+                images={[git, kafka, mongo, pg]}
                 isMobile={isMobile}
               />
             </div>

@@ -5,6 +5,8 @@ import reciped from '../assets/Reciped.png';
 import shop from '../assets/shop.png';
 import apollo from '../assets/apollo.png';
 import analytics from '../assets/analytics.png';
+import reactLogo from "../assets/react-logo.png"
+import pythonLogo from "../assets/python.png"
 
 export const projects = [
   {
@@ -95,7 +97,7 @@ export const projects = [
 
 export const experience = [
   {
-    title: 'API Data Centre',
+    title: 'API Development',
     location: 'Syft Analytics',
     img: shop,
     date: 'January 2022 - March 2022',
@@ -117,14 +119,25 @@ export const experience = [
     ],
   },
   {
-    title: 'React Developer',
+    title: 'Full-Stack (PERN)',
     location: 'Syft Analytics',
-    img: analytics,
-    date: 'July 2023 - Present',
+    img: reactLogo,
+    date: 'July 2023 - July 2024',
     description: [
       'Developed a pipeline for lead generation making use of the Puppeteer Javascript Library for web scraping.',
-      'Interacted extensively with Google Query Language and the Google Maps/Analytics API for reporting return on advertising metrics.',
-      'Currently learning how to integrate ThreeJS and Framer Motion into landing pages to create authentic parallax scrolling experiences.',
+      'Integrated ThreeJS and Framer Motion into landing pages to create authentic parallax scrolling experiences.',
+      'Designed, built and tested Oversight, a feature that allows users to compare financial performance at an organizational level, across all of their underlying entities.'
+    ],
+  },
+  {
+    title: 'Automation',
+    location: 'Kero Sports',
+    img: pythonLogo,
+    date: 'July 2024 - Present',
+    description: [
+      'Lead Automation Engineer for the NFL product',
+      'Building an end-to-end pipeline using Genius play-by-play data to bring engaging sports micro-betting markets to live NFL games',
+      'Optimizing an event driven automation service powered by Apache Kafka utilizing Python, MongoDB and ARQ (Async Redis Queue)',
     ],
   },
 ];
