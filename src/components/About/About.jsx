@@ -6,10 +6,10 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 
 const about = {
-  'Age :': 22,
+  'Age :': 23,
   'Qualification :': 'Bsc Engineering (Information)',
   'Education :': 'University of Witwatersrand',
-  'Interets :': 'Software Development, Aritifical Intelligence',
+  'Interests :': 'Software Development, Aritifical Intelligence',
   'Outside of Tech :': 'Weightlifing, Sport, Animals',
 };
 

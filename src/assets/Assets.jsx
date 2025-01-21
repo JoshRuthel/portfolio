@@ -31,6 +31,8 @@ import terminal from './terminal.svg';
 import user from './User.svg';
 import website from './Website.png';
 import whatsapp from './Whatsapp.svg';
+import kafka from './kafka.png'
+import mongo from './mongo.png'
 import cv from './CV.pdf';
 
 export {
@@ -68,4 +70,6 @@ export {
   website,
   whatsapp,
   cv,
+  kafka,
+  mongo
 };

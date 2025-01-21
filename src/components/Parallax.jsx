@@ -184,8 +184,8 @@ export const parallaxDataWork = [
     ],
   },
   {
-    start: 7600,
-    end: 8000,
+    start: 8000,
+    end: 8400,
     properties: [{ startValue: 1, endValue: 0, property: 'opacityFilter' }],
   },
 ];
@@ -232,15 +232,15 @@ const parallaxProjectHeading = [
 export const parallaxDataContact = [
   {
     start: 0,
-    end: 8000,
+    end: 8400,
     properties: [
       { startValue: 0, endValue: 0, property: 'opacity' },
       { startValue: 0, endValue: 0, property: 'scale' },
     ],
   },
   {
-    start: 8000,
-    end: 8600,
+    start: 8400,
+    end: 9000,
     properties: [
       { startValue: 0, endValue: 1, property: 'opacity' },
       { startValue: 1, endValue: 1, property: 'scale' },

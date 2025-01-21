@@ -9,7 +9,7 @@ import {
   Contact,
 } from './components';
 import './App.css';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 import Plx from 'react-plx';
 import {
   parallaxDataAbout,
@@ -32,18 +32,6 @@ function App() {
   const workRef = useRef(null);
   const contactRef = useRef(null);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollPosition = window.scrollY;
-  //     console.log('Scroll Position:', scrollPosition);
-  //   };
-
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
   return (
     <>
       {isTiny ? (

@@ -38,7 +38,7 @@ const Landing = (props) => {
             <div className="land_heading">
               <h1 className="land_hello">Hi, I'm</h1>
               <h1 className="land_name">Joshua Ruthel</h1>
-              <h1 className="land_soft">Graduate Software Engineer</h1>
+              <h1 className="land_soft">Full-Stack Software Engineer</h1>
               <h1 className="land_soft2">
                 Weclome to my portfolio, the 3D objects are interactive.
                 <br></br>
